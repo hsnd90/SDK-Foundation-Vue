@@ -7,6 +7,7 @@ COPY webserver/config/nginx.conf /etc/nginx/nginx.conf
 COPY webserver/config/fpm-pool.conf /etc/php81/php-fpm.d/www.conf
 COPY webserver/config/php.ini /etc/php81/conf.d/custom.ini
 
+
 # Configure supervisord
 COPY webserver/config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
