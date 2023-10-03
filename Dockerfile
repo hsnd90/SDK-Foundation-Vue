@@ -9,6 +9,7 @@ COPY webserver/config/php.ini /etc/php81/conf.d/custom.ini
 
 
 
+
 # Configure supervisord
 COPY webserver/config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
